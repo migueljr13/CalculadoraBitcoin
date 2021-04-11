@@ -1,11 +1,15 @@
 <resources>
     <string name="app_name">CalculadoraBitcoin</string>
-    <string name="text_cota_o_atual">Cotação atual:</string>
-    <string name="text_valor">R$ 0,00</string>
+    <string name="text_cotacao_atual">Cotação atual:</string>
+    <string name="text_valor">R$0,00</string>
     <string name="text_valor_em_reais">Valor\tem\treais:</string>
     <string name="hint_valor">Ex:\t45,00</string>
     <string name="text_btn_calcular">calcular</string>
     <string name="text_qtd_bitcoin">Quantidade de bitcoins:</string>
     <string name="valor_qtd_bitcoin">0.00000000</string>
     <string name="txt_btn_limpar">Limpar</string>
+    <string name="text_ultimo_preco">último Preço</string>
+    <string name="text_maxima">Máxima</string>
+    <string name="text_minima">Mínima</string>
+    <string name="text_volume">Volume</string>
 </resources>
