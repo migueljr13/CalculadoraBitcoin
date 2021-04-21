@@ -9,4 +9,4 @@ Esta calculadora converte um criptomoeda vinda da API do Mercado Bitcoin em Reai
 **Fontes** : 
 
 - ebook Kassiano Rezende, Kotlin com Android: Crie aplicativos de maneira fácil e divertida
-- API - Mercado Bitcoin : [API de Dados | Mercado Bitcoin]
+- API - Mercado Bitcoin : https://wwww.mercadobitcoin.com.br/api-doc/
