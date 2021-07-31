@@ -12,12 +12,17 @@
         android:padding="16dp"
         tools:context=".MainActivity">
 
-        <include layout="@layout/bloco_cotacao" />
+        <include
+            android:id="@+id/bloco_cotacao"
+            layout="@layout/bloco_cotacao" />
 
-        <include layout="@layout/bloco_entrada" />
+        <include
+            android:id="@+id/bloco_entrada"
+            layout="@layout/bloco_entrada" />
 
-        <include layout="@layout/bloco_saida" />
+        <include
+            android:id="@+id/bloco_saida"
+            layout="@layout/bloco_saida" />
 
     </LinearLayout>
 </ScrollView>
-

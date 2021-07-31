@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_marginTop="8dp"
@@ -8,9 +9,11 @@
     <Spinner
         android:id="@+id/spnCriptomoeda"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <!-- layout com as informações básicas -->
-    <include layout="@layout/bloco_cotacao_dados_basicos"/>
+    <include android:id="@+id/dados_basicos"
+        layout="@layout/bloco_cotacao_dados_basicos"/>
 
 </LinearLayout>
